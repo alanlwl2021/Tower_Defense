@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="50" tileheight="50" infinite="0" nextlayerid="3" nextobjectid="24">
+ <tileset firstgid="1" source="TowerDefense2.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="15" height="15">
+  <data encoding="csv">
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,9,3,3,3,3,6,7,7,7,5,3,3,6,7,
+7,7,7,7,7,7,4,7,7,7,4,7,7,4,7,
+7,7,7,7,7,7,1,3,3,3,2,7,7,4,7,
+7,5,3,6,7,7,7,7,7,7,7,7,7,4,7,
+7,4,7,4,7,7,7,5,3,3,3,6,7,4,7,
+7,4,7,1,3,3,3,2,7,7,7,4,7,4,7,
+7,4,7,7,7,7,7,7,7,7,7,1,3,2,7,
+7,4,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,1,3,3,3,6,7,5,3,3,6,7,7,7,7,
+7,7,7,7,7,4,7,4,7,7,4,7,7,7,7,
+7,7,7,7,7,1,3,2,7,7,1,3,3,6,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,4,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,8,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="Spawner" x="50" y="50" width="50" height="50"/>
+  <object id="2" name="Point1" x="300" y="50" width="50" height="50"/>
+  <object id="3" name="Point2" x="300" y="150" width="50" height="50"/>
+  <object id="4" name="Point3" x="500" y="150" width="50" height="50"/>
+  <object id="5" name="Point4" x="500" y="50" width="50" height="50"/>
+  <object id="6" name="Point5" x="650" y="50" width="50" height="50"/>
+  <object id="7" name="Point6" x="650" y="350" width="50" height="50"/>
+  <object id="8" name="Point7" x="550" y="350" width="50" height="50"/>
+  <object id="9" name="Point8" x="550" y="250" width="50" height="50"/>
+  <object id="10" name="Point9" x="350" y="250" width="50" height="50"/>
+  <object id="11" name="Point10" x="350" y="300" width="50" height="50"/>
+  <object id="12" name="Point11" x="150" y="300" width="50" height="50"/>
+  <object id="13" name="Point12" x="150" y="200" width="50" height="50"/>
+  <object id="14" name="Point13" x="50" y="200" width="50" height="50"/>
+  <object id="15" name="Point14" x="50" y="450" width="50" height="50"/>
+  <object id="16" name="Point15" x="250" y="450" width="50" height="50"/>
+  <object id="17" name="Point16" x="250" y="550" width="50" height="50"/>
+  <object id="18" name="Point17" x="350" y="550" width="50" height="50"/>
+  <object id="19" name="Point18" x="350" y="450" width="50" height="50"/>
+  <object id="20" name="Point19" x="500" y="450" width="50" height="50"/>
+  <object id="21" name="Point20" x="500" y="550" width="50" height="50"/>
+  <object id="22" name="Point21" x="650" y="550" width="50" height="50"/>
+  <object id="23" name="End" x="650" y="650" width="50" height="50"/>
+ </objectgroup>
+</map>
